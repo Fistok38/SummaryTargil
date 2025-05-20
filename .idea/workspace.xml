@@ -4,15 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c9b8cb0-fe86-42b9-9cc6-8b06b5ee18d4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/SummaryTargil.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
+    <list default="true" id="1c9b8cb0-fe86-42b9-9cc6-8b06b5ee18d4" name="Changes" comment="Added home page test">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +22,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Fistok38/SummaryTargil",
+    "accountId": "c6843972-2e69-4e1e-a390-112ef18d254f"
+  }
+}]]></component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 3
 }]]></component>
@@ -40,6 +39,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python tests.Python tests for test_homepage.test_homepage_loads.executor": "Run",
     "Python.conftest.executor": "Run",
     "Python.test_homepage.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -47,6 +47,11 @@
     "settings.editor.selected.configurable": "inlay.hints"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Alon\PycharmProjects\HackerU python\SummaryTargil" />
+    </key>
+  </component>
   <component name="RunManager" selected="Python tests.Python tests for test_homepage.test_homepage_loads">
     <configuration name="conftest" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SummaryTargil" />
@@ -131,6 +136,19 @@
       <option name="presentableId" value="Default" />
       <updated>1747762421442</updated>
     </task>
+    <task id="LOCAL‎-00001" summary="Added home page test">
+      <option name="closed" value="true" />
+      <created>1747763244500</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL‎-00001" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1747763244500</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added home page test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added home page test" />
   </component>
 </project>
