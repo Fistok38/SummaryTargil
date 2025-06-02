@@ -7,17 +7,17 @@ class CategoryPage:
     def __init__(self, driver):
         self.driver = driver
         self.top_menu = (By.XPATH, "//ul[@class='list-menu list-menu--inline']")
-        self.shakes_link = (By.LINK_TEXT, "שייקים")
-        self.category_title = (By.CSS_SELECTOR, ".collection-hero__title")  # Example element to verify page load
+        self.tablets_link = (By.LINK_TEXT, "טבליות")
+        self.category_title = (By.CSS_SELECTOR, ".collection-hero__title")
 
     def open_homepage(self):
         self.driver.get("https://www.thebear.co.il/")
 
-    def hover_and_click_shakes(self):
+    def hover_and_click_tablets(self):
         actions = ActionChains(self.driver)
         top_menu_element = self.driver.find_element(*self.top_menu)
         actions.move_to_element(top_menu_element).perform()
-        self.driver.find_element(*self.shakes_link).click()
+        self.driver.find_element(*self.tablets_link).click()
 
     def wait_for_category_page(self):
         WebDriverWait(self.driver, 10).until(
