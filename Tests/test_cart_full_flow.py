@@ -10,7 +10,10 @@ def test_cart_full_flow(driver):
     # שלב 1: כניסה לעמוד מוצר והוספה לעגלה
     cart_page = CartPage(driver)
     cart_page.open_product_page(
-        "https://www.thebear.co.il/products/%D7%98%D7%91%D7%9C%D7%99%D7%95%D7%AA-%D7%A4%D7%95%D7%A8%D7%9E%D7%95%D7%9C%D7%94-2-%D7%9C%D7%A0%D7%A9%D7%99%D7%9D-%D7%9C%D7%AA%D7%9E%D7%99%D7%9B%D7%94-%D7%91%D7%92%D7%95%D7%A3-%D7%A9%D7%9C%D7%9A-%D7%9C%D7%90%D7%95%D7%A8%D7%9A-%D7%9B%D7%9C-%D7%94%D7%99%D7%95%D7%9D-%D7%9E%D7%97%D7%99%D7%A8-%D7%94%D7%A9%D7%A7%D7%AA-%D7%9E%D7%95%D7%A6%D7%A8-%D7%97%D7%93%D7%A9")
+        "https://www.thebear.co.il/products/%D7%98%D7%91%D7%9C%D7%99%D7%95%D7%AA-%D7%A4%D7%95%D7%A8%D7%9E%D7%95%D7%9C"
+        "%D7%94-2-%D7%9C%D7%A0%D7%A9%D7%99%D7%9D-%D7%9C%D7%AA%D7%9E%D7%99%D7%9B%D7%94-%D7%91%D7%92%D7%95%D7%A3-%D7%A9"
+        "%D7%9C%D7%9A-%D7%9C%D7%90%D7%95%D7%A8%D7%9A-%D7%9B%D7%9C-%D7%94%D7%99%D7%95%D7%9D-%D7%9E%D7%97%D7%99%D7%A8"
+        "-%D7%94%D7%A9%D7%A7%D7%AA-%D7%9E%D7%95%D7%A6%D7%A8-%D7%97%D7%93%D7%A9")
     cart_page.click_add_to_cart()
 
     # שלב 2: פתיחת העגלה ואימות פרטים ראשוניים

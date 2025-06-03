@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1c9b8cb0-fe86-42b9-9cc6-8b06b5ee18d4" name="Changes" comment="Added home page test">
-      <change beforePath="$PROJECT_DIR$/.idea/SummaryTargil.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/SummaryTargil.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pages/search_actions.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/category_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/category_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/test_category_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/test_category_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/test_cart_full_flow.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/test_cart_full_flow.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,6 +61,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Alon\PycharmProjects\HackerU python\SummaryTargil\Pages" />
       <recent name="C:\Users\Alon\PycharmProjects\HackerU python\SummaryTargil" />
     </key>
   </component>
@@ -225,7 +225,23 @@
       <option name="project" value="LOCAL‎" />
       <updated>1747766746936</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL‎-00005" summary="Added home page test">
+      <option name="closed" value="true" />
+      <created>1748866458833</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL‎-00005" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1748866458833</updated>
+    </task>
+    <task id="LOCAL‎-00006" summary="Added home page test">
+      <option name="closed" value="true" />
+      <created>1748866473985</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL‎-00006" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1748866473985</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
